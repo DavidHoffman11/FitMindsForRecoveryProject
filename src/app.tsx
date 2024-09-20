@@ -1,7 +1,13 @@
 import { useState } from 'preact/hooks'
-import preactLogo from './assets/preact.svg'
-import viteLogo from '/vite.svg'
+
+
 import './app.css'
+import './index.css';
+import viteLogo from '/vite.svg'
+import 'primeicons/primeicons.css';
+import preactLogo from './assets/preact.svg'
+import 'primereact/resources/primereact.min.css';  
+import 'primereact/resources/themes/saga-blue/theme.css';
 
 export function App() {
   const [count, setCount] = useState(0)
