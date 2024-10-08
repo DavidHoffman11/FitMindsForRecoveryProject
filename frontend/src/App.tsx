@@ -1,7 +1,8 @@
 import React from 'react';
+import './styles/variables.css';
 import { Home } from './pages/home/Home';
 import { About } from './pages/about/About';
-import { Navbar } from './components/Navbar';
+import { Navbar } from './components/navbar/Navbar';
 import { Contact } from './pages/contact/Contact';
 import { RouterProvider } from 'react-router-dom';
 import { createBrowserRouter } from 'react-router-dom';
@@ -24,10 +25,10 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <RouterProvider router={router} />
-    </div>
+    </>
   );
 };
 
