@@ -22,25 +22,20 @@
   .contact-text {
     margin: 0; 
     flex-grow: 1;
+    color: var(--color-primary); 
   }
 
   .contact-info {
-    margin-bottom: 1rem; 
-  }
-  
-  .contact-card h2 {
+    margin-bottom: 1rem;
     color: var(--color-primary); 
   }
   
-  .contact-card p {
-    color: var(--color-tertiary); 
-  }
-  
   .contact-card a {
-    color: var(--color-secondary); 
+    color: var(--color-primary); 
     text-decoration: none; 
   }
   
   .contact-card a:hover {
     text-decoration: underline; 
+    color: var(--color-tertiary); 
   }
