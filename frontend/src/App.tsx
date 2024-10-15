@@ -14,8 +14,30 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
+    path: '/events',
+    element: <Home />,
+  },
+  {
     path: '/about',
     element: <About />,
+  },
+  {
+    path: '/partners',
+    children: [
+      {
+        path: '/partners/zacharyHortonFoundation',
+        element: <Home />,
+      },
+    ]
+  },
+  {
+    path: '/donate',
+    children: [
+      {
+        path: '/donate/zacharyHortonFoundation',
+        element: <Home />,
+      },
+    ]
   },
   {
     path: '/contact',
