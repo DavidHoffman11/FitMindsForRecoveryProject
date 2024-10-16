@@ -1,0 +1,45 @@
+.event-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--color-primary);
+}
+
+.header-section {
+    padding: 8rem 0 1rem 0;
+    text-align: center;
+}
+
+.header-section h2 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.header-section p {
+    font-size: 1.2rem;
+}
+
+.content-section {
+    display: flex;
+    flex: 1;  
+    justify-content: space-between;
+}
+
+.calendar-section,
+.bulletin-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.calendar-card {
+    width: 80%;
+    padding: 5rem;
+}
+
+.bulletin-section .p-card {
+    width: 80%;
+    padding: 5rem;
+}
