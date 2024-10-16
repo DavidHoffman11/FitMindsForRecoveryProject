@@ -2,9 +2,10 @@ import React from 'react';
 import './styles/variables.css';
 import { Home } from './pages/home/Home';
 import { About } from './pages/about/About';
-import { Navbar } from './components/navbar/Navbar';
+import { Events } from './pages/events/Events';
 import { Contact } from './pages/contact/Contact';
 import { RouterProvider } from 'react-router-dom';
+import { Navbar } from './components/navbar/Navbar';
 import { createBrowserRouter } from 'react-router-dom';
 
 // Define routes 
@@ -15,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/events',
-    element: <Home />,
+    element: <Events />,
   },
   {
     path: '/about',
