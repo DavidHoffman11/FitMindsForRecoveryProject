@@ -1,17 +1,24 @@
 import './Events.css';
+import 'moment-timezone'
+import moment from 'moment'
 import { Card } from 'primereact/card';
 import theme from '../../styles/Theme';
 import { Divider } from "primereact/divider";
-import { Calendar } from "primereact/calendar";
 import { Event } from "../../../../common/types/Event";
+import 'react-big-calendar/lib/css/react-big-calendar.css'
+import { Calendar, momentLocalizer } from 'react-big-calendar'
 
 function Events() {
     // Temporary list as filler
     const events: Event[] = [
-        { id: 1, title: "Fitness Workshop", date: new Date("2024-11-15"), description: "A workshop to teach fitness techniques." },
-        { id: 2, title: "Recovery Mentorship", date: new Date("2024-11-20"), description: "One-on-one mentorship program for recovery." },
-        { id: 3, title: "Nutrition Seminar", date: new Date("2024-12-05"), description: "Learn about nutrition for recovery." }
+        { id: 1, title: "Fitness Workshop", start: new Date("2024-11-15T12:00:00"), end: new Date("2024-11-15T12:30:00"), date: new Date("2024-11-15T12:30:00"), description: "A workshop to teach fitness techniques." },
+        { id: 2, title: "Recovery Mentorship", start: new Date("2024-11-20T12:00:00"), end: new Date("2024-11-20T12:30:00"), date: new Date("2024-11-20T12:30:00"), description: "One-on-one mentorship program for recovery." },
+        { id: 3, title: "Nutrition Seminar", start: new Date("2024-12-05T12:00:00"), end: new Date("2024-12-05T12:30:00"), date: new Date("2024-12-05T12:30:00"), description: "Learn about nutrition for recovery." }
     ];
+
+    // Calendar set-up
+    moment.tz.setDefault('America/Los_Angeles')
+    const localizer = momentLocalizer(moment)
 
     return (
         <div className="event-container">
@@ -23,8 +30,16 @@ function Events() {
             <div className="content-section">
                 <div className="calendar-section">
                     <Card className="p-shadow-3 calendar-card" style={{ backgroundColor: theme.colors.secondary }}>
-                        <h3 style={{ color: theme.colors.primary }}>Event Calendar</h3>
-                        <Calendar inline style={{ width: '75%', padding: '1rem' }} />
+                        <h3 style={{ color: theme.colors.primary, flexGrow: 1, overflowY: 'auto', padding: '1rem' }}>Event Calendar</h3>
+                        <Calendar 
+                            views={["day", "month"]}
+                            localizer={localizer}
+                            events={events}
+                            defaultView="month"
+                            startAccessor="start"
+                            endAccessor="end"
+                            style={{ height: 500 }}
+                        />
                     </Card>
                 </div>
 
