@@ -29,7 +29,7 @@ To set up the project for local development, follow these steps:
     npm run dev
     ```
 
-   This will start the app, and you can access it at `http://localhost:3000`.
+   This will start the app, and you can access it at `http://localhost:5173`.
 
 ## Contribution Guidelines
 
