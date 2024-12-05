@@ -9,11 +9,11 @@ import 'react-big-calendar/lib/css/react-big-calendar.css'
 import { Calendar, momentLocalizer } from 'react-big-calendar'
 
 function Events() {
-    // Temporary list as filler
+    // Store all upcoming events
     const events: Event[] = [
-        { id: 1, title: "Fitness Workshop", start: new Date("2024-11-15T12:00:00"), end: new Date("2024-11-15T12:30:00"), date: new Date("2024-11-15T12:30:00"), description: "A workshop to teach fitness techniques." },
-        { id: 2, title: "Recovery Mentorship", start: new Date("2024-11-20T12:00:00"), end: new Date("2024-11-20T12:30:00"), date: new Date("2024-11-20T12:30:00"), description: "One-on-one mentorship program for recovery." },
-        { id: 3, title: "Nutrition Seminar", start: new Date("2024-12-05T12:00:00"), end: new Date("2024-12-05T12:30:00"), date: new Date("2024-12-05T12:30:00"), description: "Learn about nutrition for recovery." }
+        { id: 1, title: "Zachary Horton Foundation Annual Golf Tournament", start: new Date("2025-05-05T10:00:00"), 
+          end: new Date("2025-05-05T16:00:00"), date: new Date("2025-05-05T12:00:00"), description: `Location: Copper 
+          River Country Club, Time: TBD` },
     ];
 
     // Calendar set-up

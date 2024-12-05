@@ -44,7 +44,7 @@ function Navbar () {
         {
           label: 'Zachary Horton Foundation',
           command: () => {
-            window.location.href = '/donate/zacharyHortonFoundation';
+            window.open('https://www.zacharyhortonfoundation.org/donate', '_blank', 'noopener,noreferrer');
           },
         },
       ]
