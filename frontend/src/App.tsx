@@ -6,6 +6,7 @@ import { Events } from './pages/events/Events';
 import { Contact } from './pages/contact/Contact';
 import { RouterProvider } from 'react-router-dom';
 import { Navbar } from './components/navbar/Navbar';
+import { Footer } from './components/footer/Footer';
 import { createBrowserRouter } from 'react-router-dom';
 
 // Define routes 
@@ -51,6 +52,7 @@ function App() {
     <>
       <Navbar />
       <RouterProvider router={router} />
+      <Footer />
     </>
   );
 };
