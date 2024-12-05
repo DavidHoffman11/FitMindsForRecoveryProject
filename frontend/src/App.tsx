@@ -6,6 +6,7 @@ import { Events } from './pages/events/Events';
 import { Contact } from './pages/contact/Contact';
 import { RouterProvider } from 'react-router-dom';
 import { Navbar } from './components/navbar/Navbar';
+import { Footer } from './components/footer/Footer';
 import { createBrowserRouter } from 'react-router-dom';
 
 // Define routes 
@@ -32,15 +33,6 @@ const router = createBrowserRouter([
     ]
   },
   {
-    path: '/donate',
-    children: [
-      {
-        path: '/donate/zacharyHortonFoundation',
-        element: <Home />,
-      },
-    ]
-  },
-  {
     path: '/contact',
     element: <Contact />,
   },
@@ -51,6 +43,7 @@ function App() {
     <>
       <Navbar />
       <RouterProvider router={router} />
+      <Footer />
     </>
   );
 };
