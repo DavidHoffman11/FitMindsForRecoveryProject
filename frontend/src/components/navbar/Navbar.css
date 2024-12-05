@@ -29,7 +29,7 @@ body {
   
 .p-menubar {
     width: 100%; 
-    background-color: flex; 
+    background-color: transparent; 
     border: none; 
     flex-grow: 1;
     justify-content: center;
@@ -39,16 +39,12 @@ body {
     border: none; 
 }
   
-.menu .p-menuitem {
-    margin: 0 2.5rem; 
-    justify-content: center;
-}
-  
 .p-menubar .p-menuitem-link {
     color: var(--color-primary); 
     font-size: 1.2rem; 
     font-weight: bold; 
     padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
   
 .p-menubar .p-menuitem-link:hover {
@@ -56,3 +52,23 @@ body {
     color: var(--color-tertiary); 
 }
   
+.p-submenu-list {
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem 0;
+}
+
+.p-submenu-list .p-menuitem-link {
+    color: var(--color-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.p-submenu-list .p-menuitem-link:hover {
+    color: var(--color-tertiary); 
+}
+
+.p-menubar .p-submenu-icon {
+    color: var(--color-primary);
+}

@@ -33,15 +33,6 @@ const router = createBrowserRouter([
     ]
   },
   {
-    path: '/donate',
-    children: [
-      {
-        path: '/donate/zacharyHortonFoundation',
-        element: <Home />,
-      },
-    ]
-  },
-  {
     path: '/contact',
     element: <Contact />,
   },
