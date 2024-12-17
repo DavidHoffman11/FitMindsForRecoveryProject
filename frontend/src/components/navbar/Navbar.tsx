@@ -65,7 +65,7 @@ function Navbar () {
           ]
         },
         {
-          label: "Fitness and Mental Health",
+          label: "Fitness & Mental Health",
           items: [
             {
               label: 'Mental Health America (MHA)',
@@ -82,7 +82,7 @@ function Navbar () {
           ]
         },
         {
-          label: "Helpines and Crisis Support",
+          label: "Helplines & Crisis Support",
           items: [
             {
               label: 'Crisis Text Line',
