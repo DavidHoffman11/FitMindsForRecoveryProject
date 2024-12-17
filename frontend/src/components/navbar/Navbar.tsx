@@ -35,31 +35,31 @@ function Navbar () {
             {
               label: 'Addiction Center',
               command: () => {
-                window.location.href = 'https://www.addictioncenter.com'; 
+                window.open('https://www.addictioncenter.com', 'noopener,noreferrer'); 
               },
             },
             {
               label: 'Alcoholics Anonymous',
               command: () => {
-                window.location.href = 'https://www.aa.org'; 
+                window.open('https://www.aa.org', 'noopener,noreferrer'); 
               },
             },
             {
               label: 'National Institute on Drug Abuse (NIDA)',
               command: () => {
-                window.location.href = 'https://www.drugabuse.gov'; 
+                window.open('https://www.drugabuse.gov', 'noopener,noreferrer'); 
               },
             },
             {
               label: 'Narcotics Anonymous',
               command: () => {
-                window.location.href = 'https://www.na.org'; 
+                window.open('https://www.na.org', 'noopener,noreferrer'); 
               },
             },
             {
               label: 'Partnership to End Addiction',
               command: () => {
-                window.location.href = 'https://drugfree.org'; 
+                window.open('https://drugfree.org', 'noopener,noreferrer'); 
               },
             },
           ]
@@ -70,13 +70,13 @@ function Navbar () {
             {
               label: 'Mental Health America (MHA)',
               command: () => {
-                window.location.href = 'https://www.mhanational.org'; 
+                window.open('https://www.mhanational.org', 'noopener,noreferrer'); 
               },
             },
             {
               label: 'ph Wellness',
               command: () => {
-                window.location.href = 'https://phwellness.com/'; 
+                window.open('https://phwellness.com/', 'noopener,noreferrer'); 
               },
             },
           ]
@@ -87,13 +87,13 @@ function Navbar () {
             {
               label: 'Crisis Text Line',
               command: () => {
-                window.location.href = 'https://www.crisistextline.org'; 
+                window.open('https://www.crisistextline.org', '_blank', 'noopener,noreferrer'); 
               },
             },
             {
               label: 'Suicide Prevention Lifeline',
               command: () => {
-                window.location.href = 'https://988lifeline.org'; 
+                window.open('https://988lifeline.org', '_blank', 'noopener,noreferrer'); 
               },
             },
           ]
@@ -107,7 +107,7 @@ function Navbar () {
         {
           label: 'Zachary Horton Foundation',
           command: () => {
-            window.location.href = '/partners/zacharyHortonFoundation'; 
+            window.open('/partners/zacharyHortonFoundation', '_blank', 'noopener,noreferrer'); 
           },
         }
       ]
