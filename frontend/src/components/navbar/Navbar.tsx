@@ -107,7 +107,7 @@ function Navbar () {
         {
           label: 'Zachary Horton Foundation',
           command: () => {
-            window.open('/partners/zacharyHortonFoundation', '_blank', 'noopener,noreferrer'); 
+            window.location.href = '/'; 
           },
         }
       ]
