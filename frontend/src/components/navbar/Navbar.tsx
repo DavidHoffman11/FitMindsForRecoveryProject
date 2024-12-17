@@ -30,11 +30,74 @@ function Navbar () {
       icon: 'pi pi-fw pi-book',
       items: [
         {
-          label: 'Fentanyl Anonymous',
-          command: () => {
-            window.open('https://www.fentanyl-anonymous.org/', '_blank', 'noopener,noreferrer');
-          },
+          label: 'Addiction Recovery & Support',
+          items: [
+            {
+              label: 'Addiction Center',
+              command: () => {
+                window.location.href = 'https://www.addictioncenter.com'; 
+              },
+            },
+            {
+              label: 'Alcoholics Anonymous',
+              command: () => {
+                window.location.href = 'https://www.aa.org'; 
+              },
+            },
+            {
+              label: 'National Institute on Drug Abuse (NIDA)',
+              command: () => {
+                window.location.href = 'https://www.drugabuse.gov'; 
+              },
+            },
+            {
+              label: 'Narcotics Anonymous',
+              command: () => {
+                window.location.href = 'https://www.na.org'; 
+              },
+            },
+            {
+              label: 'Partnership to End Addiction',
+              command: () => {
+                window.location.href = 'https://drugfree.org'; 
+              },
+            },
+          ]
         },
+        {
+          label: "Fitness and Mental Health",
+          items: [
+            {
+              label: 'Mental Health America (MHA)',
+              command: () => {
+                window.location.href = 'https://www.mhanational.org'; 
+              },
+            },
+            {
+              label: 'ph Wellness',
+              command: () => {
+                window.location.href = 'https://phwellness.com/'; 
+              },
+            },
+          ]
+        },
+        {
+          label: "Helpines and Crisis Support",
+          items: [
+            {
+              label: 'Crisis Text Line',
+              command: () => {
+                window.location.href = 'https://www.crisistextline.org'; 
+              },
+            },
+            {
+              label: 'Suicide Prevention Lifeline',
+              command: () => {
+                window.location.href = 'https://988lifeline.org'; 
+              },
+            },
+          ]
+        }
       ]
     },
     {
