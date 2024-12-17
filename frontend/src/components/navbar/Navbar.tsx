@@ -26,6 +26,18 @@ function Navbar () {
       },
     },
     {
+      label: 'Resources',
+      icon: 'pi pi-fw pi-book',
+      items: [
+        {
+          label: 'Fentanyl Anonymous',
+          command: () => {
+            window.open('https://www.fentanyl-anonymous.org/', '_blank', 'noopener,noreferrer');
+          },
+        },
+      ]
+    },
+    {
       label: 'Our Partners',
       icon: 'pi pi-fw pi-users',
       items: [
