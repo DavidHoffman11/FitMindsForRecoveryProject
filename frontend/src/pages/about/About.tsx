@@ -12,7 +12,7 @@ function About() {
         <div className="about-page">
             <div className="mission-card">
                 <div className="mission-details">
-                    <h3 className="mission"> Our Mission </h3>
+                    <h3 className="mission-header"> Our Mission </h3>
                     <p className="mission-description">{missionStatement}</p>
                 </div>
             </div>

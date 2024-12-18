@@ -25,7 +25,7 @@
     width: 80%;
 }
 
-.mission {
+.mission-header {
     font-size: 2rem;
     color: var(--color-primary);
     text-decoration: underline;
