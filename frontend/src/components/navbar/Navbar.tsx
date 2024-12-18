@@ -112,6 +112,12 @@ function Navbar () {
       icon: 'pi pi-fw pi-money-bill',
       items: [
         {
+          label: 'SAFE Project',
+          command: () => {
+            window.open('https://www.safeproject.us/donate/', '_blank', 'noopener,noreferrer');
+          },
+        },
+        {
           label: 'Zachary Horton Foundation',
           command: () => {
             window.open('https://www.zacharyhortonfoundation.org/donate', '_blank', 'noopener,noreferrer');
