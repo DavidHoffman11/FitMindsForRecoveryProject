@@ -103,14 +103,9 @@ function Navbar () {
     {
       label: 'Our Partners',
       icon: 'pi pi-fw pi-users',
-      items: [
-        {
-          label: 'Zachary Horton Foundation',
-          command: () => {
-            window.location.href = '/'; 
-          },
-        }
-      ]
+      command: () => {
+        window.location.href = '/partners'; 
+      },
     },
     {
       label: 'Donate Now',
