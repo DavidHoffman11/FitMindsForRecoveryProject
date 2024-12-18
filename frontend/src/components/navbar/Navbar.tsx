@@ -26,21 +26,97 @@ function Navbar () {
       },
     },
     {
-      label: 'Our Partners',
-      icon: 'pi pi-fw pi-users',
+      label: 'Resources',
+      icon: 'pi pi-fw pi-book',
       items: [
         {
-          label: 'Zachary Horton Foundation',
-          command: () => {
-            window.location.href = '/partners/zacharyHortonFoundation'; 
-          },
+          label: 'Addiction Recovery & Support',
+          items: [
+            {
+              label: 'Addiction Center',
+              command: () => {
+                window.open('https://www.addictioncenter.com', 'noopener,noreferrer'); 
+              },
+            },
+            {
+              label: 'Alcoholics Anonymous',
+              command: () => {
+                window.open('https://www.aa.org', 'noopener,noreferrer'); 
+              },
+            },
+            {
+              label: 'National Institute on Drug Abuse (NIDA)',
+              command: () => {
+                window.open('https://www.drugabuse.gov', 'noopener,noreferrer'); 
+              },
+            },
+            {
+              label: 'Narcotics Anonymous',
+              command: () => {
+                window.open('https://www.na.org', 'noopener,noreferrer'); 
+              },
+            },
+            {
+              label: 'Partnership to End Addiction',
+              command: () => {
+                window.open('https://drugfree.org', 'noopener,noreferrer'); 
+              },
+            },
+          ]
+        },
+        {
+          label: "Fitness & Mental Health",
+          items: [
+            {
+              label: 'Mental Health America (MHA)',
+              command: () => {
+                window.open('https://www.mhanational.org', 'noopener,noreferrer'); 
+              },
+            },
+            {
+              label: 'ph Wellness',
+              command: () => {
+                window.open('https://phwellness.com/', 'noopener,noreferrer'); 
+              },
+            },
+          ]
+        },
+        {
+          label: "Helplines & Crisis Support",
+          items: [
+            {
+              label: 'Crisis Text Line',
+              command: () => {
+                window.open('https://www.crisistextline.org', '_blank', 'noopener,noreferrer'); 
+              },
+            },
+            {
+              label: 'Suicide Prevention Lifeline',
+              command: () => {
+                window.open('https://988lifeline.org', '_blank', 'noopener,noreferrer'); 
+              },
+            },
+          ]
         }
       ]
+    },
+    {
+      label: 'Our Partners',
+      icon: 'pi pi-fw pi-users',
+      command: () => {
+        window.location.href = '/partners'; 
+      },
     },
     {
       label: 'Donate Now',
       icon: 'pi pi-fw pi-money-bill',
       items: [
+        {
+          label: 'SAFE Project',
+          command: () => {
+            window.open('https://www.safeproject.us/donate/', '_blank', 'noopener,noreferrer');
+          },
+        },
         {
           label: 'Zachary Horton Foundation',
           command: () => {
