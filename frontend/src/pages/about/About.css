@@ -1,29 +1,43 @@
-.about-container {
+.about-page {
+    background-color: var(--color-primary);
+    min-height: 100vh;
+    padding-top: 10rem; 
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: var(--color-primary);
-    padding: 20px;
+    align-items: flex-start;
 }
 
-.about-card {
-    width: 600px;
+.mission-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     background-color: var(--color-secondary);
-    border-radius: 12px;
-    padding: 40px;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
+    border: 1px solid var(--color-primary);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; 
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.about-title {
-    font-size: 2.5rem;
-    color: var(--color-primary);
-    margin-bottom: 20px;
+.mission-details {
+    flex-grow: 1;
+    width: 80%;
 }
 
-.about-mission {
-    font-size: 1.5rem;
+.mission-header {
+    font-size: 2rem;
     color: var(--color-primary);
-    margin-bottom: 40px;
+    text-decoration: underline;
+    text-decoration-color: var(--color-tertiary);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    margin-bottom: 1rem;
+}
+
+.mission-description {
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+    line-height: 1.6; 
 }
