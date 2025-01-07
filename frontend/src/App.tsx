@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import './styles/variables.css';
 import { Home } from './pages/home/Home';
 import { About } from './pages/about/About';
@@ -38,7 +39,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <RouterProvider router={router} />
+      <main>
+        <RouterProvider router={router} />
+      </main>
       <Footer />
     </>
   );
