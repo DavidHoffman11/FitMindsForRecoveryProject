@@ -1,8 +1,9 @@
 import React from 'react';
 import './Partners.css';
+import { Partner } from "../../../../common/types/Partner";
 
 function Partners() {
-  const partners = [
+  const partners: Partner[] = [
     {
       name: 'Zachary Horton Foundation',
       image: '/src/images/zachary-horton-logo.png', 
