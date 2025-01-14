@@ -14,6 +14,15 @@ function Partners() {
         events like recovery summits, sober celebrations, and educational programs to raise awareness and foster connections.`,
       website: 'https://www.zacharyhortonfoundation.org/',
     },
+    {
+      name: 'Stay Shaded',
+      image: '/src/images/stay-shaded-logo.png', 
+      description:
+        `Stay Shaded is a nonprofit organization founded by Vonn Webb, former Fresno State Men’s Basketball Coach, after the tragic 
+        loss of his son Taelin to a fentanyl overdose. Dedicated to raising awareness about the dangers of fentanyl and supporting those 
+        impacted by addiction, Stay Shaded focuses on education, advocacy, and community empowerment to prevent further tragedies and honor Taelin’s legacy..`,
+      website: 'https://stayshaded.org/',
+    },
   ];
 
   return (
