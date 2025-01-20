@@ -141,7 +141,7 @@ function Navbar () {
   ];
 
   // Create variable for logo image
-  const whiteLogo = <img src="./src/images/FitMinds_Logo_White.png" alt="Mini Logo" className="navBarLogo" />
+  const whiteLogo = <img src="./images/FitMinds_Logo_White.png" alt="Mini Logo" className="navBarLogo" />
 
   return (
     <div className="navbar-container">
