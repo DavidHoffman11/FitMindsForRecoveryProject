@@ -15,14 +15,14 @@ function Navbar () {
       label: 'Upcoming Events',
       icon: 'pi pi-fw pi-calendar',
       command: () => {
-        window.location.href = '/events';
+        window.location.href = '/FitMindsForRecovery/events';
       },
     },
     {
       label: 'About',
       icon: 'pi pi-fw pi-info-circle',
       command: () => {
-        window.location.href = '/about'; 
+        window.location.href = '/FitMindsForRecovery/about'; 
       },
     },
     {
@@ -104,7 +104,7 @@ function Navbar () {
       label: 'Our Partners',
       icon: 'pi pi-fw pi-users',
       command: () => {
-        window.location.href = '/partners'; 
+        window.location.href = '/FitMindsForRecovery/partners'; 
       },
     },
     {
@@ -135,13 +135,13 @@ function Navbar () {
       label: 'Contact',
       icon: 'pi pi-fw pi-envelope',
       command: () => {
-        window.location.href = '/contact'; 
+        window.location.href = '/FitMindsForRecovery/contact'; 
       },
     },
   ];
 
   // Create variable for logo image
-  const whiteLogo = <img src="/src/images/FitMinds_Logo_White.png" alt="Mini Logo" className="navBarLogo" />
+  const whiteLogo = <img src="./src/images/FitMinds_Logo_White.png" alt="Mini Logo" className="navBarLogo" />
 
   return (
     <div className="navbar-container">

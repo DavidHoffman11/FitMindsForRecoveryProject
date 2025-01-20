@@ -33,7 +33,9 @@ const router = createBrowserRouter([
     path: '/contact',
     element: <Contact />,
   },
-]);
+], {
+  basename: '/FitMindsForRecovery'
+});
 
 function App() {
   return (

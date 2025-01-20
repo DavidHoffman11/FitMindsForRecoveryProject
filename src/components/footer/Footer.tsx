@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-content">
-        <p>&copy; 2024 Fit Minds for Recovery Project. All rights reserved.</p>
+        <p>Fit Minds for Recovery Project</p>
         <div className="social-icons">
             <p>Connect with us!</p>
             <a 
