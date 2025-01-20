@@ -15,14 +15,14 @@ function Navbar () {
       label: 'Upcoming Events',
       icon: 'pi pi-fw pi-calendar',
       command: () => {
-        window.location.href = '/FitMindsForRecovery/events';
+        window.location.href = '/FitMindsForRecoveryProject/events';
       },
     },
     {
       label: 'About',
       icon: 'pi pi-fw pi-info-circle',
       command: () => {
-        window.location.href = '/FitMindsForRecovery/about'; 
+        window.location.href = '/FitMindsForRecoveryProject/about'; 
       },
     },
     {
@@ -104,7 +104,7 @@ function Navbar () {
       label: 'Our Partners',
       icon: 'pi pi-fw pi-users',
       command: () => {
-        window.location.href = '/FitMindsForRecovery/partners'; 
+        window.location.href = '/FitMindsForRecoveryProject/partners'; 
       },
     },
     {
@@ -135,7 +135,7 @@ function Navbar () {
       label: 'Contact',
       icon: 'pi pi-fw pi-envelope',
       command: () => {
-        window.location.href = '/FitMindsForRecovery/contact'; 
+        window.location.href = '/FitMindsForRecoveryProject/contact'; 
       },
     },
   ];

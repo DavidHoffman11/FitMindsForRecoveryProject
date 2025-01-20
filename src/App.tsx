@@ -34,7 +34,7 @@ const router = createBrowserRouter([
     element: <Contact />,
   },
 ], {
-  basename: '/FitMindsForRecovery'
+  basename: '/FitMindsForRecoveryProject'
 });
 
 function App() {
