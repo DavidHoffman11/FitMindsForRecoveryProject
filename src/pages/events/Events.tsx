@@ -1,5 +1,5 @@
 import './Events.css';
-import { Event } from "../../../../common/types/Event";
+import { Event } from "../../../common/types/Event";
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 
 function Events() {
@@ -30,7 +30,7 @@ function Events() {
             id: 2, 
             title: "Fresno and Clovis Recovery Summit", 
             start: new Date("2025-09-14T00:00:00"), 
-            end: new Date("2025-09-14T24:59:59"), 
+            end: new Date("2025-09-14T23:59:59"), 
             allDay: true,
             description: `The 8th Annual Recovery Summit is a FREE event to promote awareness of addiction resources and support in Fresno and Clovis, 
                           while providing hopeful messages of recovery from local community leaders. The Recovery Summit is held in Fresno, CA during 

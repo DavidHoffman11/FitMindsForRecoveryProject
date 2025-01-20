@@ -1,6 +1,0 @@
-#!/usr/bin/env sh
-. "$(dirname "$0")/_/husky.sh"
-
-# Ensure frontend compilation
-cd ../frontend
-npx tsc --skipLibCheck --noEmit
