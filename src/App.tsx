@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import './styles/variables.css';
+import './styles/Variables.css';
 import { Home } from './pages/home/Home';
 import { About } from './pages/about/About';
 import { Events } from './pages/events/Events';
