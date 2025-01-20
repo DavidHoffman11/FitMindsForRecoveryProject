@@ -6,7 +6,7 @@ function Home () {
   return (
     <div className="home-container">
       <Card className="home-content">
-        <img src="./public/images/FitMinds_Wordmark_Black.png" alt="Fit Minds Recovery Project Logo" className="logo" />
+        <img src="./images/FitMinds_Wordmark_Black.png" alt="Fit Minds Recovery Project Logo" className="logo" />
         <h1 className="mission">Empowering minds and bodies for a stronger, healthier future.</h1>
       </Card>
     </div>
