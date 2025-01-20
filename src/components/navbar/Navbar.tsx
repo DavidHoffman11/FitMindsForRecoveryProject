@@ -8,7 +8,7 @@ function Navbar () {
       label: 'Home',
       icon: 'pi pi-fw pi-home',
       command: () => {
-        window.location.href = '/FitMindsForRecoveryProject/'; 
+        window.location.href = '/'; 
       },
     },
     {

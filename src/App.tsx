@@ -14,23 +14,23 @@ import { createBrowserRouter } from 'react-router-dom';
 // Define routes 
 const router = createBrowserRouter([
   {
-    path: '/FitMindsForRecoveryProject/',
+    path: '/',
     element: <Home />,
   },
   {
-    path: '/FitMindsForRecoveryProject/about',
+    path: '/about',
     element: <About />,
   },
   {
-    path: '/FitMindsForRecoveryProject/events',
+    path: '/events',
     element: <Events />,
   },
   {
-    path: '/FitMindsForRecoveryProject/partners',
+    path: '/partners',
     element: <Partners />
   },
   {
-    path: '/FitMindsForRecoveryProject/contact',
+    path: '/contact',
     element: <Contact />,
   },
 ], {
