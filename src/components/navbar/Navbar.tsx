@@ -118,6 +118,12 @@ function Navbar () {
           },
         },
         {
+          label: 'Stay Shaded',
+          command: () => {
+            window.open('https://givebutter.com/h4fikV', '_blank', 'noopener,noreferrer');
+          },
+        },
+        {
           label: 'Zachary Horton Foundation',
           command: () => {
             window.open('https://www.zacharyhortonfoundation.org/donate', '_blank', 'noopener,noreferrer');

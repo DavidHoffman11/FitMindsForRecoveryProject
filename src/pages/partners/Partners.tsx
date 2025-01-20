@@ -1,6 +1,6 @@
 import React from 'react';
 import './Partners.css';
-import { Partner } from "../../../../common/types/Partner";
+import { Partner } from "../../../common/types/Partner";
 
 function Partners() {
   const partners: Partner[] = [
