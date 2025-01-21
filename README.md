@@ -17,10 +17,10 @@ This repository contains the source code for the **Fit Minds Recovery Project / 
 
 To set up the project for local development, follow these steps:
 
-1. **Navigate to the frontend folder:**
+1. **Install dependencies:**
 
     ```bash
-    cd frontend
+    npm install
     ```
 
 2. **Run the development server:**
