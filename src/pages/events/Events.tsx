@@ -27,7 +27,7 @@ function Events() {
             date: new Date("2025-09-01T00:00:00")
         },
         { 
-            id: 2, 
+            id: 3, 
             title: "Fresno and Clovis Recovery Summit", 
             start: new Date("2025-09-14T00:00:00"), 
             end: new Date("2025-09-14T23:59:59"), 

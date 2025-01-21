@@ -6,13 +6,12 @@ import { About } from './pages/about/About';
 import { Events } from './pages/events/Events';
 import { Partners } from './pages/partners/Partners';
 import { Contact } from './pages/contact/Contact';
-import { RouterProvider } from 'react-router-dom';
 import { Navbar } from './components/navbar/Navbar';
 import { Footer } from './components/footer/Footer';
-import { createBrowserRouter } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 
 // Define routes 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Home />,
@@ -33,9 +32,7 @@ const router = createBrowserRouter([
     path: '/contact',
     element: <Contact />,
   },
-], {
-  basename: '/FitMindsForRecoveryProject'
-});
+]);
 
 function App() {
   return (
