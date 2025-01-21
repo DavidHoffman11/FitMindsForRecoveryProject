@@ -13,4 +13,4 @@ function Home () {
   );
 };
 
-export { Home };
+export default Home ;

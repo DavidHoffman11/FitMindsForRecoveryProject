@@ -52,4 +52,4 @@ function Partners() {
   );
 }
 
-export { Partners };
+export default Partners;
