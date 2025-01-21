@@ -1,38 +1,41 @@
 import React from 'react';
 import './App.css';
 import './styles/Variables.css';
-import Home from './pages/home/Home';
+import { Home } from './pages/home/Home';
 import { About } from './pages/about/About';
-import Events from './pages/events/Events';
-import Partners from './pages/partners/Partners';
+import { Events } from './pages/events/Events';
+import { Partners } from './pages/partners/Partners';
 import { Contact } from './pages/contact/Contact';
+import { RouterProvider } from 'react-router-dom';
 import { Navbar } from './components/navbar/Navbar';
 import { Footer } from './components/footer/Footer';
-import { createHashRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter } from 'react-router-dom';
 
 // Define routes 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
-    path: '/FitMindsForRecoveryProject/',
+    path: '/',
     element: <Home />,
   },
   {
-    path: '/FitMindsForRecoveryProject/about',
+    path: '/about',
     element: <About />,
   },
   {
-    path: '/FitMindsForRecoveryProject/events',
+    path: '/events',
     element: <Events />,
   },
   {
-    path: '/FitMindsForRecoveryProject/partners',
+    path: '/partners',
     element: <Partners />
   },
   {
-    path: '/FitMindsForRecoveryProject/contact',
+    path: '/contact',
     element: <Contact />,
   },
-]);
+], {
+  basename: '/FitMindsForRecoveryProject'
+});
 
 function App() {
   return (
