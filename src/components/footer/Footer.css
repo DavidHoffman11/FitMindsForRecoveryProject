@@ -1,44 +1,49 @@
 .footer-container {
-    background-color: var(--color-primary);
-    color: var(--color-secondary);
-    padding: 1rem 2rem;
-    text-align: center;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-  }
-  
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  padding: clamp(0.5rem, 2vw, 1rem) clamp(1rem, 4vw, 2rem);
+  text-align: center;
+  width: 100vw; 
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(0.5rem, 2vw, 1rem);
+  width: 100%; 
+  max-width: none; 
+}
+
+.footer-text {
+  font-size: clamp(0.8rem, 2vw, 1.2rem);
+  font-weight: bold;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.3rem, 1.5vw, 0.8rem);
+}
+
+.instagram-icon {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  color: var(--color-secondary);
+  transition: color 0.3s ease;
+}
+
+.instagram-icon:hover {
+  color: #E1306C; 
+}
+
+@media (min-width: 600px) {
   .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
   }
-  
-  .footer-links a {
-    color: var(--color-primary);
-    text-decoration: none;
-    margin: 0 1rem;
-    font-size: 0.9rem;
-  }
-  
-  .footer-links a:hover {
-    text-decoration: underline;
-  }
-  
-  .social-icons {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  
-  .instagram-icon {
-    font-size: 1.5rem;
-    color: var(--color-secondary);
-    transition: color 0.3s ease;
-  }
-  
-  .instagram-icon:hover {
-    color: #E1306C; 
-  }
-  
+}
