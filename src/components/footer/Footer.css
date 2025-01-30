@@ -3,9 +3,11 @@
   color: var(--color-secondary);
   padding: clamp(0.5rem, 2vw, 1rem) clamp(1rem, 4vw, 2rem);
   text-align: center;
-  width: 100%;
+  width: 100vw; 
+  position: fixed; 
   bottom: 0;
   left: 0;
+  right: 0;
 }
 
 .footer-content {
@@ -13,6 +15,8 @@
   flex-direction: column;
   align-items: center;
   gap: clamp(0.5rem, 2vw, 1rem);
+  width: 100%; 
+  max-width: none; 
 }
 
 .footer-text {
@@ -25,7 +29,6 @@
   align-items: center;
   gap: clamp(0.3rem, 1.5vw, 0.8rem);
 }
-
 
 .instagram-icon {
   font-size: clamp(1rem, 3vw, 1.5rem);
@@ -42,7 +45,5 @@
       flex-direction: row;
       justify-content: space-between;
       width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
   }
 }
