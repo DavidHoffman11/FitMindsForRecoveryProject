@@ -2,24 +2,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
-  background-color: var(--color-primary); 
+  height: 100vh;
+  background-color: var(--color-primary);
+  min-width: 400px; 
+  overflow-x: auto; 
+  padding: 1rem; 
 }
 
 .home-content {
   text-align: center;
-  background: transparent; 
-  box-shadow: none; 
+  background: transparent;
+  box-shadow: none;
+  width: 80%; 
+  max-width: 800px; 
 }
 
 .logo {
-  max-width: 600px; 
+  max-width: 50vw; 
+  min-width: 200px; 
 }
 
 .mission {
-  font-size: 1rem;
-  color: var(--color-secondary); 
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', sans-serif; 
+  font-size: clamp(1rem, 4vw, 2rem); 
+  color: var(--color-secondary);
+  font-family: 'Arial', sans-serif;
 }
