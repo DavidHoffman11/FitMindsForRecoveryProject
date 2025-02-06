@@ -7,6 +7,16 @@ function Events() {
     const events: Event[] = [
         { 
             id: 1, 
+            title: "Austin Marathon", 
+            start: new Date("2025-02-16T10:00:00"), 
+            end: new Date("2025-02-16T16:00:00"), 
+            allDay: false,
+            description: `Community member Eann McKasson is running the Austin Marathon and raising money for the Zachary Horton Foundation. Support his journey as he 
+                          takes on this incredible challenge to bring awareness to addiction recovery and support those in need.`,
+            date: new Date("2025-02-16T12:00:00")
+        },
+        { 
+            id: 2, 
             title: "Zachary Horton Foundation Annual Golf Tournament", 
             start: new Date("2025-05-05T10:00:00"), 
             end: new Date("2025-05-05T16:00:00"), 
@@ -16,7 +26,7 @@ function Events() {
             date: new Date("2025-05-05T12:00:00")
         },
         { 
-            id: 2, 
+            id: 3, 
             title: "September is National Recovery Month", 
             start: new Date("2025-09-01T00:00:00"), 
             end: new Date("2025-09-30T23:59:59"), 
@@ -27,7 +37,7 @@ function Events() {
             date: new Date("2025-09-01T00:00:00")
         },
         { 
-            id: 3, 
+            id: 4, 
             title: "Fresno and Clovis Recovery Summit", 
             start: new Date("2025-09-14T00:00:00"), 
             end: new Date("2025-09-14T23:59:59"), 
