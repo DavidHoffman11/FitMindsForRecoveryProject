@@ -8,12 +8,12 @@
   }
   
   .partners-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: center;
-    width: 80%; 
-    margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     width: 80%;
+     margin: 0 auto;
+     padding: 2rem 0;
   }
   
   .partner-card {
@@ -35,7 +35,7 @@
   }
   
   .partner-image img {
-    width: 200px;
+    width: clamp(100px, 10vw, 200px);
     height: auto;
     border-radius: 50%;
     margin-right: 1.5rem;
@@ -48,24 +48,24 @@
   }
   
   .partner-name {
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     color: var(--color-primary);
     text-decoration: underline;
     text-decoration-color: var(--color-tertiary);
-    text-decoration-thickness: 3px;
-    text-underline-offset: 10px;
+    text-decoration-thickness: clamp(1.5px, 1vw, 3px);
+    text-underline-offset: clamp(5px, 1vw, 10px);
     margin-bottom: 1rem;
   }
   
   .partner-description {
-    font-size: 1.2rem;
+    font-size: clamp(.6rem, 1vw, 1.2rem);
     color: var(--color-primary);
     margin-bottom: 1rem;
     line-height: 1.6; 
   }
   
   .partner-link {
-    font-size: 1rem;
+    font-size: clamp(.5rem, 1vw, 1rem);
     color: var(--color-primary);
     text-decoration: none;
     font-weight: bold;
