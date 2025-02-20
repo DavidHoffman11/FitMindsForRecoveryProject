@@ -53,7 +53,7 @@ function Events() {
         <div className="events-page">
             <header className="events-header">
             <div className="header-overlay">
-                <h1 className="events-title">Upcoming Events</h1>
+                <h1 className="events-title">Exciting Events on the Calendar for 2025 and Beyond!</h1>
                 <p className="events-intro"></p>
             </div>
             </header>
