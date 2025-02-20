@@ -35,17 +35,17 @@
 }
 
 .mission-header {
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
     color: var(--color-primary);
     text-decoration: underline;
     text-decoration-color: var(--color-tertiary);
-    text-decoration-thickness: 3px;
-    text-underline-offset: 10px;
+    text-decoration-thickness: clamp(1.5px, 1vw, 3px);
+    text-underline-offset: clamp(5px, 1vw, 10px);
     margin-bottom: 1rem;
 }
 
 .mission-description {
-    font-size: 1.2rem;
+    font-size: clamp(.6rem, 1vw, 1.2rem);
     color: var(--color-primary);
     margin-bottom: 1rem;
     line-height: 1.6; 

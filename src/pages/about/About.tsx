@@ -17,7 +17,7 @@ function About() {
                       When he passed, I knew I wanted to do something to help people in his situation. But I wasn’t a doctor, a counselor, or an expert — 
                       I was just someone who had witnessed addiction firsthand through the experience of my friend.  At first, I struggled to find a way to 
                       make a difference. But through that struggle, I came to a realization: fitness and a healthy lifestyle aren’t just about physical 
-                      strength — they create structure, discipline, and a sense of purpose. \n
+                      strength — they create structure, discipline, and a sense of purpose. \n\n
                       
                       While I don’t believe fitness is a cure-all for addiction, I do know that it helped my friend. It helps me. And I believe it can help others too.
                       That belief became the foundation for Fit Minds for Recovery — a community built on support, shared struggle, and self-improvement. Here, we try to 
