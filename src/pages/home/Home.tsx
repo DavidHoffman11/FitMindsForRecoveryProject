@@ -17,7 +17,7 @@ function Home() {
           </h1>
           <p className="hero-description">
             Join us in supporting mental health and wellness through community-driven programs, fitness initiatives, and
-            recovery support services.
+            recovery support.
           </p>
           <div className="hero-actions">
             <Button
