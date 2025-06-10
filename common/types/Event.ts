@@ -5,6 +5,6 @@ export type Event = {
     end: Date,
     allDay?: boolean,
     description: string,
-    resource?: any,
+    link?: string,
     date: Date
 };
