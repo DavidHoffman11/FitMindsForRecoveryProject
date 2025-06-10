@@ -27,6 +27,10 @@ body {
     margin-right: 2rem;
     transition: height 0.3s ease;
 }
+
+.navBarLogo:hover {
+  transform: scale(1.05);
+}
   
 .p-menubar {
     width: 100%; 

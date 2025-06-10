@@ -3,7 +3,7 @@
   color: var(--color-secondary);
   padding: clamp(0.5rem, 2vw, 1rem) clamp(1rem, 4vw, 2rem);
   text-align: center;
-  position: fixed; 
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -14,8 +14,8 @@
   flex-direction: column;
   align-items: center;
   gap: clamp(0.5rem, 2vw, 1rem);
-  width: 100%; 
-  max-width: none; 
+  width: 100%;
+  max-width: none;
 }
 
 .footer-text {
@@ -36,13 +36,13 @@
 }
 
 .instagram-icon:hover {
-  color: #E1306C; 
+  color: #e1306c;
 }
 
 @media (min-width: 600px) {
   .footer-content {
-      flex-direction: row;
-      justify-content: space-between;
-      width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
   }
 }
