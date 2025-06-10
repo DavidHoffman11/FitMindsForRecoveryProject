@@ -88,20 +88,6 @@ function Partners() {
               By connecting our network with these established organizations, we help extend their reach and support
               their vital missions in addiction recovery and mental health advocacy.
             </p>
-            <div className="partnership-stats">
-              <div className="stat-item">
-                <div className="stat-number">2+</div>
-                <div className="stat-label">Active Partners</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-number">100%</div>
-                <div className="stat-label">Shared Commitment</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-number">∞</div>
-                <div className="stat-label">Lives Impacted</div>
-              </div>
-            </div>
           </Card>
         </div>
       </section>
