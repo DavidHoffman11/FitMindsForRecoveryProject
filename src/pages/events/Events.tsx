@@ -136,7 +136,7 @@ function Events() {
               label="Follow Our Socials"
               className="p-button-lg p-button-outlined cta-secondary"
               onClick={() => {
-                window.open("https://www.instagram.com/fitmindsforrecoveryproject/", "_blank")
+                window.open("https://www.instagram.com/fitminds.recovery.project/", "_blank")
               }}
             />
           </div>
