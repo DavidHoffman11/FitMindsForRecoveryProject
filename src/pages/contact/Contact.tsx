@@ -17,7 +17,7 @@ function Contact() {
       icon: "📱",
       title: "Follow Us",
       content: "@fitmindsforrecoveryproject",
-      link: "https://www.instagram.com/fitmindsforrecoveryproject/",
+      link: "https://www.instagram.com/fitminds.recovery.project/",
       description: "Stay connected with our community on Instagram.",
     },
     {
@@ -98,7 +98,7 @@ function Contact() {
               label="Follow on Instagram"
               className="p-button-lg cta-primary"
               onClick={() => {
-                window.open("https://www.instagram.com/fitmindsforrecoveryproject/", "_blank")
+                window.open("https://www.instagram.com/fitminds.recovery.project/", "_blank")
               }}
             />
             <Button
