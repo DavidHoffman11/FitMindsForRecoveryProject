@@ -10,7 +10,7 @@ export const Footer = () => {
         <div className="social-icons">
           <p className="footer-text">Connect with us!</p>
           <a
-            href="https://www.instagram.com/fitmindsforrecoveryproject/"
+            href="https://www.instagram.com/fitminds.recovery.project/"
             target="_blank"
             rel="noopener noreferrer"
           >
